@@ -1,0 +1,13 @@
+Package: RRustFib
+Type: Package
+Title: Rust Fibonacci Calculator
+Description: Calculate fibonacci with the help of Rust
+Version: 0.1
+URL: https://github.com/yutannihilation/RRustFib
+Authors@R: person("Hiroaki", "Yutani", , "yutani.ini@gmail.com", c("aut", "cre"))
+License: MIT + file LICENSE
+Depends:
+    RAutoGenRunTime,
+    Rffi
+LazyData: TRUE
+RoxygenNote: 5.0.0

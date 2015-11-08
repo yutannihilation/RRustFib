@@ -1,0 +1,8 @@
+CARGO=cargo
+
+fib.dll: src/fib.rs
+	$(CARGO) build --release;\
+	cp target/release/$@ ./
+
+clean:
+	$(CARGO) clean
